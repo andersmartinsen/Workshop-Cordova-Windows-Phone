@@ -1,0 +1,13 @@
+Dette er Cordova-workshop for Windows Phone
+
+For krav, oppsett og installasjon av Cordova for Windows Phone:
+http://phonegap.com/start#wp
+
+Installasjon av utviklingsverktøy og SDK:
+http://www.microsoft.com/visualstudio/en-us/products/2010-editions/windows-phone-developer-tools
+
+Etter at Cordova og utviklingsverktøy er installert, last ned kildkoden her:
+
+#link
+
+og kopier www-mappa inn i et nytt prosjekt som du har opprettet i Visual Studio.

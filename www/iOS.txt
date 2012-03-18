@@ -1,4 +1,0 @@
-<array>
-                <string>*.twimg.com</string>
-                <string>*.twitter.com</string>
-        </array>

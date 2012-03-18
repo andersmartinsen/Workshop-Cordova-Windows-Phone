@@ -44,7 +44,7 @@ Her skal man kunne søke etter et brukernavn på twitter og så legge til kontak
 Her skal du lage en enkel lydopptaker som bruker telefonens standard lydopptaksfunksjon. Du bruker phonegap sitt Capture API for å ta opp lyden. Lag et Media-objekt av opptaket og spill det av. Du velger selv om du vil lage en ny metode i App for dette, eller om du bare vil legge det direkte på riktig sted i setupBindings().
 
 ### Oppgave 5
-Modifiser oppgave 2 (geolokasjon) til å først sjekke om telefon har nettverkstilgang. Hvis den ikke har nettverk, vis en feilmelding og gå tilbake til startsiden.
+Modifiser oppgave 2 (geolokasjon) til å først sjekke om telefon har nettverkstilgang. Hvis den ikke har nettverk, bruk PhoneGap sitt notification-API for å vise en fornuftig feilmelding.
 
 
 ## Tips

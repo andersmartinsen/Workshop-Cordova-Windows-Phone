@@ -11,3 +11,6 @@ Etter at Cordova og utviklingsverktøy er installert, last ned kildkoden her:
 #link
 
 og kopier www-mappa inn i et nytt prosjekt som du har opprettet i Visual Studio.
+
+
+I Cordova utvikler man HTML5/JS/CSS3 og i Xcode vil all utvikling foregå i mappen www/. Det finnes kun en html-fil som er index.html og den er koblet til app-oppgave.js som ligger i mappen javascripts. Fasiten for oppgavene ligger i js-fila app.js. 

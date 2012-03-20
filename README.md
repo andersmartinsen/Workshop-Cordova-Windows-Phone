@@ -5,7 +5,9 @@
 1. Installasjon av utviklingsverktøy og SDK:
 [Visual Studio](http://www.microsoft.com/visualstudio/en-us/products/2010-editions/windows-phone-developer-tools)
 
-2. Etter at Cordova og utviklingsverktøy er installert, last ned kildkoden her:
+2. Last ned og installere siste versjon av [PhoneGap](http://phonegap.com/download) og dets innhold. Naviger til Windows Phone-mappa og kjør installer.
+
+3. Etter at Cordova og utviklingsverktøy er installert, last ned kildkoden her:
 [Zip-fil](https://github.com/andersmartinsen/Workshop-Cordova-Windows-Phone/zipball/master)
 
 3. Pakk ut zip-filen og flytt www-mappa inn i et nytt prosjekt som du har opprettet i Visual Studio.

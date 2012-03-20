@@ -41,10 +41,10 @@ Søke etter tweets i nærheten med geolokasjon. Her må du bruke phonegap til å
 Her skal man kunne søke etter et brukernavn på twitter og så legge til kontaktinfo (bilde og navn i det minste) i kontaktlista på telefonen. I metoden searchByTwitterName() lager du selve twitter-søket. Metoden renderUser() tar inn objektet du får fra twitter og skriver du ut i html'en. I lagreAnsattTilKontaktLista() bruker du phonegap til å lagre brukeren i kontaktlista. Husk å bytt til "vis-bruker"-siden.
 
 ### Oppgave 4
-Her skal du lage en enkel lydopptaker som bruker telefonens standard lydopptaksfunksjon. Du bruker phonegap sitt Capture API for å ta opp lyden. Lag et Media-objekt av opptaket og spill det av. Du velger selv om du vil lage en ny metode i App for dette, eller om du bare vil legge det direkte på riktig sted i setupBindings().
+Modifiser oppgave 2 (geolokasjon) til å først sjekke om telefon har nettverkstilgang. Hvis den ikke har nettverk, bruk PhoneGap sitt notification-API for å vise en fornuftig feilmelding.
 
 ### Oppgave 5
-Modifiser oppgave 2 (geolokasjon) til å først sjekke om telefon har nettverkstilgang. Hvis den ikke har nettverk, bruk PhoneGap sitt notification-API for å vise en fornuftig feilmelding.
+Her skal du lage en enkel lydopptaker som bruker telefonens standard lydopptaksfunksjon. Du bruker phonegap sitt Capture API for å ta opp lyden. Lag et Media-objekt av opptaket og spill det av. Du velger selv om du vil lage en ny metode i App for dette, eller om du bare vil legge det direkte på riktig sted i setupBindings().
 
 
 ## Tips

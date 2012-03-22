@@ -116,7 +116,14 @@
 			
 			var searchUrl = 'http://api.twitter.com/1/users/show.json?callback=?&screen_name=' + username;
 
-		      // Søk etter bruker vha. $.ajax()
+		    // Cache-objekt som tar vare på tidligere søkt på brukernavn
+			var screenNameCache = window.screenNameCache || {};
+			var userFromCache = screenNameCache[username];
+			if (userFromCache){
+				// Hvis vi allerede har hentet denne brukeren og lagt i cache, bruk denne istedenfor å kalle på twitter
+			} else {
+				// Søk etter bruker vha. $.ajax()
+			}
 
 		      // Bytt til brukerinfosiden når søkeresultatet kommer
 		      $.mobile.changePage(self.usernameResultPage);

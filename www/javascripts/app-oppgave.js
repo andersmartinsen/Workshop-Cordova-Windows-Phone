@@ -104,9 +104,21 @@
 				Dette er en utvidelse av oppgave 2 hvor man før man henter tweets basert på geolocation, sjekker om telefonen har nettverk. Dette gjøres via PhoneGap sitt Connection-API.
 				Hvis man ikke har nettverk, bruk PhoneGap sitt Notification-API til å gi en fornuftig feilmelding. Ellers vis tweets by geolokasjon.
 			*/
+
 			console.log("Searching for geolocation with network check")
 			var self = this;
 			checkConnection();
+			
+			var searchUrl = 'http://api.twitter.com/1/users/show.json?callback=?&screen_name=' + username;
+
+		    // Cache-objekt som tar vare på tidligere søkt på brukernavn
+			var screenNameCache = window.screenNameCache || {};
+			var userFromCache = screenNameCache[username];
+			if (userFromCache){
+				// Hvis vi allerede har hentet denne brukeren og lagt i cache, bruk denne istedenfor å kalle på twitter
+			} else {
+				// Søk etter bruker vha. $.ajax()
+			}
 
 			function checkConnection() {
 				// Bruk PhoneGap til å sjekke om du har tilgang til nettverk

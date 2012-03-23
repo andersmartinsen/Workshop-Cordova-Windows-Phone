@@ -105,6 +105,7 @@
 		
 		function findGeoLocationWithPhoneGap() {
 			// Denne metoden blir lik som metoden searchByLocation() som du fullførte i oppgave 2
+		}
 		},
 		searchByTwitterName: function(username) {
 			/*
